@@ -13,11 +13,11 @@ import { render } from "@testing-library/react";
 //   return <h1>{props.title}</h1>;
 // };
 
-// class Hello extends Component {
-//   render() {
-//     return <h1>{this.props.title}</h1>;
-//   }
-// }
+class Hello extends Component {
+  render() {
+    return <h1>{this.props.title}</h1>;
+  }
+}
 
 // class Text extends Component {
 //   render() {
